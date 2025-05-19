@@ -1,7 +1,7 @@
 import './panel.css'
 
 
-export default function Panel(){
+export default function Panel({score}){
 
 
     return(
@@ -16,7 +16,7 @@ export default function Panel(){
                 <div className="score">
                     <div className="scoreText">
                         <h2>SCORE</h2>
-                        <h1>12</h1>
+                        <h1>{score}</h1>
                     </div>
                 </div>
             </div>

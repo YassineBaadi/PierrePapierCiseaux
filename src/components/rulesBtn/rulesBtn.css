@@ -1,0 +1,23 @@
+.rules-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: white;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.rules-btn:hover {
+  border-color: white;
+}
